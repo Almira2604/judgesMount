@@ -1,12 +1,12 @@
 import React from 'react'
 import { Routes, Route, Router } from 'react-router-dom'
 import Navbar from './Components/NavbarComponent/Navbar'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Meetings from './Pages/Meetings'
-import Event from './Pages/Event'
-import JoinUs from './pages/JoinUs'
-import Gallery from './pages/Gallery'
+import Home from '../src/pages/Home'
+import About from '../src/pages/About'
+import Meetings from '../src/pages/Meetings'
+import Event from '../src/pages/Event'
+import JoinUs from '../src/pages/JoinUs'
+import Gallery from '../src/pages/Gallery'
 import Footer from './Components/FooterComponent/Footer'
 
 
