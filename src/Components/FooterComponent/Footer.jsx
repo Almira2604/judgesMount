@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaFacebookF,  FaInstagram,  FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaTelegram } from 'react-icons/fa'
-import Logo from '../../assets/Logo.png' // Adjust path based on your file setup
+import Logo from '../../assets/Logo.jpg' // Adjust path based on your file setup
 
 function Footer() {
   const currentYear = new Date().getFullYear()
