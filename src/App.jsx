@@ -1,13 +1,17 @@
 import React from 'react'
 import { Routes, Route, Router } from 'react-router-dom'
+
+// 1. Fixed Components path (Ensure 'Components' is capitalized in your actual folder name)
 import Navbar from './Components/NavbarComponent/Navbar'
-import Home from '../src/pages/Home'
-import About from '../src/pages/About'
-import Meetings from '../src/pages/Meetings'
-import Event from '../src/pages/Event'
-import JoinUs from '../src/pages/JoinUs'
-import Gallery from '../src/pages/Gallery'
 import Footer from './Components/FooterComponent/Footer'
+
+// 2. Fixed Pages paths (Removed the awkward '../src/' loop)
+import Home from './pages/Home'
+import About from './pages/About'
+import Meetings from './pages/Meetings'
+import Event from './pages/Event'
+import JoinUs from './pages/JoinUs'
+import Gallery from './pages/Gallery'
 
 
 
