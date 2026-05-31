@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { FiMenu, FiX } from "react-icons/fi"
-import Logo from '../../assets/Logo.png'
+import Logo from '../../assets/Logo.jpg'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

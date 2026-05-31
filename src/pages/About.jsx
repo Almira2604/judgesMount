@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCross, FaFire, FaHeart, FaBookOpen } from 'react-icons/fa'
 import { LuShieldCheck, LuSparkles } from 'react-icons/lu'
-import Pastor from './../assets/pastor.jpeg'
+import Pastor from './../assets/pastor.jpg'
 
 function About() {
   const coreValues = [
